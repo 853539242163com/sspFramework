@@ -1,0 +1,41 @@
+//
+//  TempObjInstance.h
+//  sspFramework
+//
+//  Created by admin on 2023/8/17.
+//
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "SATools.h"
+#import "SAInfo.h"
+
+
+@interface TempObjInstance : NSObject
+
+@property (nonatomic, strong) UIView * adview;//目前快手开屏 信息流返回view用
+
+@property (nonatomic, strong) NSObject *adobj;
+
+@property (nonatomic, strong) NSObject *materlObj;
+
+@property (nonatomic, copy) NSString * slotId;
+
+@property (nonatomic, assign) bool isbidding;
+
+@property (nonatomic, assign) NSInteger slotPrice;
+
+@property (nonatomic, assign) SAAdType adtype;
+
+@property (nonatomic, assign) bool isCache;
+
+@property (nonatomic, copy) NSString * slotJson;
+
+@property (nonatomic, copy) NSString * cacheTime;
+
+@property (nonatomic, copy) NSString * rewardVerify;
+
+@property (nonatomic, assign) SSPAdRenderType feedRenderAdtype;
+
+@end
+
