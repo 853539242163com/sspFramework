@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'sspFramework'
-  s.version          = '0.4.0'
+  s.version          = '1.0.0'
   s.summary          = 'simple tools'
 
 # This description is used to generate tags and improve search results.
@@ -41,9 +41,11 @@ TODO: simple toolssimple toolssimple toolssimple tools
   }
 
   s.dependency 'AFNetworking'
+  s.dependency 'SDWebImage'
   s.dependency 'BaiduMobAdSDK'
   s.dependency 'BUAdSDK'
   s.dependency 'KSAdSDK' 
+  s.dependency 'GDTMobSDK' 
   s.dependency 'YouTuiAdSDK' 
   s.dependency 'OctopusSDK' 
 
