@@ -16,6 +16,8 @@
  */
 +(void)SettingSSPWithAppId:(NSString *)appId slotM:(SASlot*)slotM;
 
++(NSString*)sdkVersion;
+
 /*
  金丝雀非标广告
  appid：对应appid
