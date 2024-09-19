@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'sspFramework'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'simple tools simple tools simple tools'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ TODO: simple toolssimple toolssimple toolssimple tools
   s.source           = { :git => 'https://github.com/853539242163com/sspFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '13.0'
    s.ios.vendored_framework   = 'sspFramework.framework'
 
 
