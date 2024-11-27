@@ -23,21 +23,13 @@ typedef void (^Splash_Show_Failed)(SAAdType type);
 
 @property (nonatomic, weak) UIViewController *rootViewController;
 @property (nonatomic, assign) CGRect adFrame;
-
 @property (nonatomic, strong) UIView *bottomView;
 @property (nonatomic, copy) NSString * postionId;//广告位id
-
 @property (nonatomic, assign) BOOL showBottomView;
-
-@property(nonatomic,weak)id<sspSplashDelegate>delegate;
-
-
+@property (nonatomic,weak)id<sspSplashDelegate>delegate;
 @property (nonatomic, strong) UIView *adobjcView;
 @property (nonatomic, strong) NSObject *adobjc;
 @property (nonatomic, assign) SAAdType adShowType;
-
-
-
 @property (nonatomic, strong) NSMutableArray * ObjInstanceArrays;
 
 
@@ -64,11 +56,6 @@ typedef void (^Splash_Show_Failed)(SAAdType type);
 
 -(void)load_HXSplash_PosId:(NSString*)posId obj:(NSObject*)adobj cheEcpm:(NSString*)ecpm;
 
-
--(void)addObserver;
--(void)removeObserver;
--(void)RemoveAllAdFromWindows;
-
 -(void)show_Splash_BU:(NSNotification *)notifa;
 -(void)show_Splash_GDT:(NSNotification *)notifa;
 -(void)show_Splash_KS:(NSNotification *)notifa;
@@ -77,6 +64,9 @@ typedef void (^Splash_Show_Failed)(SAAdType type);
 -(void)show_Splash_HX:(NSNotification *)notifa;
 
 
+-(void)addObserver;
+-(void)removeObserver;
+-(void)RemoveAllAdFromWindows;
 -(void)deleteViewInstance:(UIView*)adView;
 -(void)deleteNSObjInstance:(NSObject*)objins;
 -(NSString *)C_Time_Obj:(NSObject*)objins;

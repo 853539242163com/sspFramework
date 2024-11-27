@@ -71,6 +71,7 @@ typedef void (^Feeds_Show_CallBack)(BOOL loadRes,SAInfo * infoP);
 -(void)show_Feeds_ZY:(NSNotification *)notifa;
 -(void)show_Feeds_HX:(NSNotification *)notifa;
 
+-(void)show_Material_Feeds_KS:(NSNotification *)notifa;
 
 -(void)deleteViewInstance:(UIView*)adView;
 -(void)deleteNSObjInstance:(NSObject*)objins;

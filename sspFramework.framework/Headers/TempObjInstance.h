@@ -23,9 +23,11 @@
 
 @property (nonatomic, copy) NSString * appid;//2024/-09/01tcsdk 增加
 
+@property (nonatomic, copy) NSString * partner_user_id;//2024/-09/01tcsdk 增加
+
 @property (nonatomic, copy) NSString * adPlatform;//2024/-09/01tcsdk 增加
 
-@property (nonatomic, assign) bool isbidding;
+@property (nonatomic, copy) NSString * isbidding;
 
 @property (nonatomic, assign) NSInteger slotPrice;
 
@@ -38,6 +40,10 @@
 @property (nonatomic, copy) NSString * cacheTime;
 
 @property (nonatomic, copy) NSString * rewardVerify;
+
+@property (nonatomic, copy) NSString * appsource;
+
+@property (nonatomic, copy) NSString * device_platform;
 
 @property (nonatomic, assign) SSPAdRenderType feedRenderAdtype;
 

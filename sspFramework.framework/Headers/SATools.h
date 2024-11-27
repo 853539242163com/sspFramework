@@ -10,6 +10,7 @@
 #define Notif_Feeds_bidd_Show         @"Notif_Feeds_bidd_Show"
 #define Notif_Splash_bidd_Show         @"Notif_Splash_bidd_Show"
 
+#define Notif_Feeds_Material_Show         @"Notif_Feeds_Material_Show"//自渲染通知
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -43,5 +44,9 @@ typedef enum : NSUInteger {
 -(BOOL)IsTimeOut:(SAAdType)adtype ads:(NSInteger)ads timestr:(NSString*)timestr;
 
 -(NSString*)CurrentTime;
+
+-(UIWindow*)window13;
+
+-(BOOL)rdom;
 
 @end
