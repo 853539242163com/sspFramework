@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'sspFramework'
-  s.version          = '1.0.5'
+  s.version          = '1.0.7'
   s.summary          = 'simple tools simple tools simple tools'
 
 # This description is used to generate tags and improve search results.
