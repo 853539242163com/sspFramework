@@ -1,0 +1,6 @@
+framework module sspFramework {
+  umbrella header "sspFramework.h"
+  export *
+
+  module * { export * }
+}
